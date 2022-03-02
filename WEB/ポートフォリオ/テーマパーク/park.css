@@ -1,0 +1,655 @@
+/* スマートフォン */ 
+@media screen and (max-width: 500px){
+
+} 
+/* タブレット */
+@media screen and (min-width: 501px) and (max-width: 780px){
+    .contents{
+        width: 1024px;
+        height: 655px;
+        background-image: url(image/top/TOP.jpg);
+        background-repeat: no-repeat;
+        background-size: 1061px;
+        background-position: -140px -61px;
+    }
+    .input-hidden{
+        display: none;
+    }
+        /* label */
+    .hamburger-demo-switch{
+        background-color: #011e75;
+        cursor: pointer;
+        position: absolute;
+        top: 143px; /* ハンバーガーアイコンの位置（上から） */
+        left: 58px;
+        z-index: 9999;
+        width: 4em; /* アイコン（クリック可能領域）の幅 */
+        height: 4em; /* アイコン（クリック可能領域の）高さ */
+    }
+    /* メニュー展開時にハンバーガーアイコンを固定 */
+    #hamburger-demo1:checked ~ .hamburger-demo-switch{
+        position: fixed;
+    }
+    /* ハンバーガーアイコン */
+    .hamburger-switch-line1, .hamburger-switch-line1:before, .hamburger-switch-line1:after{
+        width: 33px;
+        height: 3px;
+        background: #fff; /* ハンバーガーアイコンの色 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transition: .3s;
+        content: "";
+    }
+    .hamburger-switch-line1{
+        transform: translate(-50%, -50%);
+    }
+    .hamburger-switch-line1:before{
+        transform: translate(-50%, -500%);
+    }
+    .hamburger-switch-line1:after{
+        transform: translate(-50%, 400%);
+    }
+    /* ハンバーガーアイコン･アニメーション */
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1{
+        width: 0;
+    }
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1:before{
+        transform: rotate(45deg) translate(-28%, 411%);
+    }
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1:after{
+        transform: rotate(-45deg) translate(-40%, -325%);
+    }
+    /* メニューエリア */
+    .hamburger-demo-menuwrap{
+        position: fixed;
+        height: 100%;
+        background: #011e75; /* メニューエリアの背景色 */
+        padding: 5em 3% 2em;
+        z-index: 9998;
+        transition: .3s;
+        overflow-y: scroll; /* メニュー内容が多い場合に縦スクロールする */
+        top: 0;
+        left: 100%;
+        width: 70%;
+    }
+    /* メニューリスト */
+    .hamburger-demo-menulist{
+        margin-right: 3%;
+        padding-left: 2% !important; /* !important不要な場合もあり */
+        list-style: none;
+    }
+    .hamburger-demo-menulist li a{
+        text-decoration: none;
+        color: #fff; /* メニューリストの文字色 */
+        display: block;
+        padding: .5em 0;
+    }
+    /* メニューエリア･アニメーション */
+        /* 右から */
+    #hamburger-demo1:checked ~ .hamburger-demo-menuwrap{
+        left: 80%;
+    }
+    /* コンテンツカバー */
+    #hamburger-demo1:checked ~ .hamburger-demo-cover{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9997;
+        background: rgba(3,3,3,.5);
+        display: block;
+    }
+    /*　トップ　*/
+    .logo img{
+        width: 170px;
+    }
+    .ue{
+        margin-top: -620px;
+    }
+    #one{
+        width: 170px;
+        margin: 0px 0px 0px 167px;
+    }
+    #tow{
+        width: 311px;
+        margin: -219px 0px 0px 463px;
+    }
+    #three{
+        width: 300px;
+        margin: 120px 0px 0px -30px;
+    }
+    #for{
+        width: 200px;
+        margin: 111px 0px 0px 268px;
+    }
+    .top h1{
+        font-size: 18px;
+        margin: -192px 0px 0px 266px;
+        color: #011e75;
+    }
+    /* アトラクション */
+    h2{
+        background-color: #fff;
+        color: #011e75;
+        width: 250px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .slider img{
+        width: 500px;
+        margin-left: 220px;
+    }
+    .text{
+        margin-left: 215px;
+        margin-top: -188px;
+    }
+    .attraction{
+        margin-left: 110px;
+        margin-top: 90px;
+    }
+    #p1{
+        margin-top: 0px;
+    }
+    #p2{
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p3{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p4{
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    #p5{
+        margin-top: 0px;
+        margin-left: px;
+    }
+    #p6{
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p7{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p8{
+        margin-top: 30px;
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    #p9{
+        margin-top: 0px;
+        margin-left: px;
+    }
+    #p10{
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p11{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p12{
+        margin-top: 30px;
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    footer{
+        margin-top: 210px;
+        margin-left: 85px;
+        font-size: 12px;
+        border-top: solid 1px;
+    }
+    /* 観光 */
+    h3{
+        background-color: #fff;
+        color: #011e75;
+        width: 95px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .spot{
+        margin-top: 70px;
+    }
+    .spot img{
+        width: 280px;
+        margin-left: 160px;
+    }
+    .spot1 img{
+        width: 280px;
+        margin-left: 160px;
+    }
+    #spot{
+        margin-top: 5px;
+        margin-left: 13px;
+        text-align: left;
+    }
+    #text{
+        font-weight: 100;
+        font-size: 13px;
+        margin-top: 20px;
+        margin-left: 13px;
+        text-align: left;
+    }
+    /* グルメ */
+    h4{
+        background-color: #fff;
+        color: #011e75;
+        width: 95px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .gourmet1{
+        margin-top: 70px;
+        margin-left: 90px;
+        border-collapse: separate;
+        border-spacing: 40px 0px;
+    }
+    .gourmet1 img{
+        margin-top: -14px;
+        width: 264px;
+    }
+    th p{
+        margin-top: -14px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    #text00{
+        font-size: 13px;
+        margin-top: -7px;
+        padding-bottom: 50px;
+    }
+    /* アクセス */
+    h5{
+        background-color: #fff;
+        color: #011e75;
+        width: 185px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;    
+    }
+    .access{
+        margin-left: 140px;
+    }
+    .map{
+        margin-top: -25px;
+    }
+    .access img{
+        width: 500px;
+        height: 315px;
+        margin-top: 0px;
+        margin-left: -6px;
+    }
+    .p00{
+        margin: 0px 0px 0px 50px;
+        padding: 1em;
+        width: 350px;
+        border: 5px double #8491c3; /*太さ・線種・色*/
+        color: #333; /* 文字色 */
+        background-color: #fff; /* 背景色 */
+        border-radius: 1px; /*角の丸み*/
+    }
+    #p00{
+        margin-left: 45px;
+    }
+    #p01{
+        margin-bottom: 50px;
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p02{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p03{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p04{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+}   
+/* パソコン */ 
+@media screen and (min-width: 781px) and (max-width: 1370px){
+    body{
+        width: 1024px;
+    }
+    .contents{
+        width: 1200px;
+        height: 655px;
+        background-image: url(image/top/TOP.jpg);
+        background-repeat: no-repeat;
+        background-size: 1200px;
+        background-position: 50px -110px;
+    }
+    .input-hidden{
+        display: none;
+    }
+        /* label */
+    .hamburger-demo-switch{
+        background-color: #011e75;
+        cursor: pointer;
+        position: absolute;
+        top: 160px; /* ハンバーガーアイコンの位置（上から） */
+        left: 62px;
+        z-index: 9999;
+        width: 4em; /* アイコン（クリック可能領域）の幅 */
+        height: 4em; /* アイコン（クリック可能領域の）高さ */
+    }
+    /* メニュー展開時にハンバーガーアイコンを固定 */
+    #hamburger-demo1:checked ~ .hamburger-demo-switch{
+        position: fixed;
+    }
+    /* ハンバーガーアイコン */
+    .hamburger-switch-line1, .hamburger-switch-line1:before, .hamburger-switch-line1:after{
+        width: 33px;
+        height: 3px;
+        background: #fff; /* ハンバーガーアイコンの色 */
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transition: .3s;
+        content: "";
+    }
+    .hamburger-switch-line1{
+        transform: translate(-50%, -50%);
+    }
+    .hamburger-switch-line1:before{
+        transform: translate(-50%, -500%);
+    }
+    .hamburger-switch-line1:after{
+        transform: translate(-50%, 400%);
+    }
+    /* ハンバーガーアイコン･アニメーション */
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1{
+        width: 0;
+    }
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1:before{
+        transform: rotate(45deg) translate(-28%, 411%);
+    }
+    #hamburger-demo1:checked ~ .hamburger-demo-switch .hamburger-switch-line1:after{
+        transform: rotate(-45deg) translate(-40%, -325%);
+    }
+    /* メニューエリア */
+    .hamburger-demo-menuwrap{
+        position: fixed;
+        height: 100%;
+        background: #011e75; /* メニューエリアの背景色 */
+        padding: 5em 3% 2em;
+        z-index: 9998;
+        transition: .3s;
+        overflow-y: scroll; /* メニュー内容が多い場合に縦スクロールする */
+        top: 0;
+        left: 100%;
+        width: 70%;
+    }
+    /* メニューリスト */
+    .hamburger-demo-menulist{
+        margin-right: 3%;
+        padding-left: 5% !important; /* !important不要な場合もあり */
+        list-style: none;
+    }
+    .hamburger-demo-menulist li a{
+        text-decoration: none;
+        color: #fff; /* メニューリストの文字色 */
+        display: block;
+        padding: .5em 0;
+    }
+    /* メニューエリア･アニメーション */
+        /* 右から */
+    #hamburger-demo1:checked ~ .hamburger-demo-menuwrap{
+        left: 80%;
+    }
+    /* コンテンツカバー */
+    #hamburger-demo1:checked ~ .hamburger-demo-cover{
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 9997;
+        background: rgba(3,3,3,.5);
+        display: block;
+    }
+    /*　トップ　*/
+    .logo img{
+        width: 185px;
+    }
+    .ue{
+        margin-top: -620px;
+    }
+    #one{
+        width: 215px;
+        margin: 0px 0px 0px 215px;
+    }
+    #tow{
+        width: 370px;
+        margin: -245px 0px 0px 900px;
+    }
+    #three{
+        width: 393px;
+        margin: 55px 0px 0px -28px;
+    }
+    #for{
+        width: 250px;
+        margin: -330px 0px 0px 1051px;
+    }
+    .top h1{
+        margin: -250px 0px 0px 430px;
+        color: #011e75;
+    }
+    /* アトラクション */
+    h2{
+        background-color: #fff;
+        color: #011e75;
+        width: 250px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .slider img{
+        width: 80%;
+        margin-left: 195px;
+    }
+    .text{
+        margin-left: 450px;
+        margin-top: -160px;
+    }
+    .attraction{
+        margin-left: 360px;
+        margin-top: 90px;
+    }
+    #p1{
+        margin-top: 0px;
+    }
+    #p2{
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p3{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p4{
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    #p5{
+        margin-top: 0px;
+        margin-left: px;
+    }
+    #p6{
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p7{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p8{
+        margin-top: 30px;
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    #p9{
+        margin-top: 0px;
+        margin-left: px;
+    }
+    #p10{
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 3px;
+    }
+    #p11{
+        margin-top: 0px;
+        margin-left: 188px;
+    }
+    #p12{
+        margin-top: 30px;
+        margin-left: 202px;
+        font-size: 3px;
+    }
+    footer{
+        margin-top: 210px;
+        margin-left: 85px;
+        font-size: 12px;
+        border-top: solid 1px;
+    }
+    /* 観光 */
+    h3{
+        background-color: #fff;
+        color: #011e75;
+        width: 95px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .spot{
+        margin-top: 70px;
+    }
+    .spot img{
+        width: 380px;
+        margin-left: 190px;
+    }
+    .spot1 img{
+        width: 380px;
+        margin-left: 190px;
+    }
+    #spot{
+        margin-top: -50px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    #text{
+        font-weight: 100;
+        margin-top: 20px;
+        margin-left: 30px;
+        text-align: left;
+    }
+    /* グルメ */
+    h4{
+        background-color: #fff;
+        color: #011e75;
+        width: 95px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;
+    }
+    .gourmet1{
+        margin-top: 70px;
+        margin-left: 250px;
+        border-collapse: separate;
+        border-spacing: 40px 0px;
+    }
+    .gourmet1 img{
+        margin-top: -7px;
+        width: 380px;
+    }
+    th p{
+        margin-top: -14px;
+        margin-left: 0px;
+        text-align: left;
+    }
+    #text00{
+        margin-top: -7px;
+        padding-bottom: 60px;
+    }
+    /* アクセス */
+    h5{
+        background-color: #fff;
+        color: #011e75;
+        width: 185px;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 100;
+        margin-left: 230px;
+        margin-top: -45px;    
+    }
+    .access{
+        display: flex;
+        margin-left: 160px;
+    }
+    .access img{
+        width: 500px;
+        height: 315px;
+        margin-top: 10px;
+        margin-left: 50px;
+    }
+    .map{
+        margin: -30px 0px 0px -50px;
+    }
+    .p00{
+        margin: 0px 0px 0px 50px;
+        padding: 1em;
+        width: 350px;
+        border: 5px double #8491c3; /*太さ・線種・色*/
+        color: #333; /* 文字色 */
+        background-color: #fff; /* 背景色 */
+        border-radius: 1px; /*角の丸み*/
+    }
+    #p00{
+        margin-left: 45px;
+    }
+    #p01{
+        margin-bottom: 50px;
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p02{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p03{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+    #p04{
+        border-style: none none solid;
+        border-color: #8491c3;
+    }
+}

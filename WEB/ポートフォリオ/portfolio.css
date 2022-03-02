@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+}
+/* トップページ */
+.contents{
+    height: 755px;
+    background-image: url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 1366px;
+}
+.contents header{
+    width: 1150px;
+    background-color: rgb(255, 255, 255,0.55);
+    color: #585656;
+    border-radius: 140px;
+    margin: 0px 0px 0px 60px;
+    padding: 0px 0px 0px 55px;
+}
+header img{
+    width: 470px;
+}
+nav{
+    display: flex;
+}
+ul{
+    display: flex;
+    margin-top: 0px;
+}
+ul a{
+    color: #585656;
+}
+li{
+    margin-right: 65px;
+    margin-left: 10px;
+}
+nav p{
+    font-size: 30px;
+    margin: -10px 0px 0px 386px;
+}
+.contents main{
+    width: 880px;
+    height: 250px;
+    background-color: #fff;
+    margin: 70px 0px 0px 210px;
+    border-radius: 50px;
+    border: 7px solid #ff7f00;
+}
+.contents main p{
+    text-align: center;
+    margin-top: 100px;
+    color: #585656;
+    font-size: 25px;
+}
+footer{
+    margin-left: 45px;
+    padding-top: 190px;
+    color: #585656;
+}
+/* サブページ */
+.wrapper{
+    background-image: url(image/background-sub.jpg);
+    background-size: 1366px;
+    }
+.wrapper header{
+    width: 1150px;
+}
+.wrapper header img{
+    width: 260px;
+    margin: 10px 0px 0px 20px;
+}
+.wrapper nav ul{
+    width: 750px;
+    height: 55px;
+    background-color: rgb(255, 255, 255,0.55);
+    color: #585656;
+    border-radius: 140px;
+    margin: 0px 0px 0px 270px;
+    display: flex;
+}
+.wrapper nav ul a{
+    color: #585656;
+}
+.wrapper nav li{
+    margin: 15px 0px 0px 110px;
+}
+h1{
+    margin: 0px;
+}
+h2{
+    margin: 50px 0px 0px 270px;
+    color: #585656;
+}
+.box{
+    width: 900px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    margin-top: 70px;
+    margin-left: 190px;
+    row-gap: 65px;
+}
+.box img{
+    width: 300px;
+}
+.item{
+    position:		relative;
+}
+.item p{
+    color: #585656;
+    font-weight: 300;
+    margin-top: 0px;
+}
+.item .caption {
+	font-size:		130%;
+	text-align: 		center;
+	padding-top:		80px;
+	color:			#fff;
+}
+.item .mask {
+	width:			300px;
+	height:			179px;
+	position:		absolute;	/* 絶対位置指定 */
+	top:			0;
+	left:			0;
+	opacity:		0;	/* マスクを表示しない */
+	background-color:	rgba(0,0,0,0.4);	/* マスクは半透明 */
+	-webkit-transition:	all 0.2s ease;
+	transition:		all 0.2s ease;
+}
+.item:hover .mask {
+	opacity:		1;	/* マスクを表示する */
+}
+form{
+    margin-top: 50px;
+    margin-left: 280px;
+}
+

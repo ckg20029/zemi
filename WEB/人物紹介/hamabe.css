@@ -1,0 +1,104 @@
+body{
+    width: 980px;
+    margin: 0px auto;
+}
+.contents{
+    text-align: center;
+}
+header h1{
+    font-size: 40px;
+    margin: 30px 0px 0px 0px;
+}
+ul{
+    margin-bottom: 50px;
+    text-align: center;
+}
+li{
+    display: inline;  
+    margin-right: 90px;
+}
+footer p{
+    border-top: 1px solid;
+    margin-top: 180px;
+    text-align: center;
+}
+/* プロフィール */
+.wrapper{
+    display: flex;
+}
+.profile{
+    width: 735px;
+}
+.profile h2{
+    margin: 0px 500px 50px 30px;
+    font-size: 30px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    padding-left: 34px;
+}
+.a{
+    border-right: 1px solid;
+}
+.b{
+    padding-top: 40px;
+}
+.sub-image{
+    margin-left: 45px;
+    width: 200px;
+}
+.sub-image img{
+    width: 200px;
+}
+/* フォト */
+.photo{
+    position: relative;
+    overflow: hidden;
+    width: 780px;
+    height: 770px;
+    margin: auto;
+}
+.photo img{
+    display: block;
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    left: -100%;
+    object-fit: cover;
+    animation: slideAnime 20s ease infinite;
+}
+.photo h3{
+    margin: 0px 500px 20px 30px;
+    font-size: 30px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}
+.photo img:nth-of-type(1) { animation-delay: 0s }
+.photo img:nth-of-type(2) { animation-delay: 5s }
+.photo img:nth-of-type(3) { animation-delay: 10s }
+.photo img:nth-of-type(4) { animation-delay: 15s }
+
+@keyframes slideAnime{
+    0% { left: -100% }
+    2% { left: 0     }
+   23% { left: 0     }
+   25% { left: 100%  }
+  100% { left: 100%  }
+ }
+ /* ストア */
+ .store{
+    width: 980px;
+}
+.store img{
+    width: 230px;
+}
+.store h4{
+    margin: 0px 500px 20px 30px;
+    font-size: 30px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+}

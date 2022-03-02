@@ -1,0 +1,318 @@
+/* パソコン */ 
+@media screen and (min-width: 781px) and (max-width: 1370px){
+    body{
+        width: 1250px;
+        background-image: url(image/pastel_00008.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img{
+        position: relative;
+        margin: -10px 0px 0px 15px;
+    }
+    header p{
+        position: absolute;
+        margin-top: -400px;
+        margin-left: 180px;
+    }
+    .logo img{
+        position: absolute;
+        top: 12px;
+        left: 0;
+    }
+    .open , .close {
+        display: none;
+    }
+    input[type=checkbox] {
+        position: absolute;
+        left: -50vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav ul{
+        position: absolute;
+        font-size: 14px;
+        margin: -293px 0px 0px 25px;
+        padding: 7px;
+        background-color: #a8d1f4;
+        border-radius: 5px;
+    }
+    ul a{
+        color: blue;
+    }
+    nav li{
+        list-style: none;
+        margin: 0px 0px 0px 20px;
+    }
+    #l1{
+        margin-top: -13px;
+    }
+    #annai{
+        width: 144px;
+        padding: 5px;
+        background-color: palevioletred;
+        border-radius: 10px;
+        color: #fff;
+        margin: -2px 0px 0px 850px;   
+        font-size: 18px;
+        font-weight: 100;
+    }
+    #annai a{
+        color: #fff;
+        text-decoration: none;
+    }
+    h1{
+        width: 215px;
+        padding: 5px;
+        background-color: #7fc737;
+        border-radius: 10px;
+        margin: 25px 0px 0px 125px;
+        color: #fff;
+        font-family: monospace;
+        font-size: 30px;
+    }
+    main{
+        width: 900px;
+        margin: 10px 0px 0px 90px;
+        display: grid;
+        grid-template-columns: 320px 320px 320px;
+    }
+    main p{
+        width: 300px;
+        margin-top: -5px;
+        padding: 3px;
+        background: #7fc737;
+        color: #fff;
+        border-radius: 5px;
+    }
+    h2{
+        background-color: rgba( 204, 255, 204, 0.55 );
+        position: fixed;
+        bottom: 10px; 
+        right: 10px;
+        padding: 6px 40px;
+        font-size: 15px;
+    }
+    footer{
+        margin-top: 100px;
+    }
+}
+
+/* タブレット */
+@media screen and (min-width: 501px) and (max-width: 780px){
+    body{
+        width: 780px;
+        background-image: url(image/pastel_00008.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    header img{
+        width: 780px;
+        margin-top: 10px;
+    }
+    header p{
+        position: absolute;
+        margin-top: -284px;
+        margin-left: 73px;
+        font-size: 10px;
+    }
+    .logo img{
+        width: 210px;
+        position: absolute;
+        top: -5px;
+        left: 8px;
+    }
+    .open , .close {
+        display: none;
+    }
+    input[type=checkbox] {
+        position: absolute;
+        left: -50vw;
+    }
+    nav{
+        display: flex;
+    }
+    nav ul{
+        position: absolute;
+        font-size: 11px;
+        margin: -221px 0px 0px 8px;
+        padding: 4px;
+        background-color: #a8d1f4;
+        border-radius: 5px;
+    }
+    ul a{
+        color: blue;
+    }
+    nav li{
+        list-style: none;
+        margin: 0px 0px 0px 20px;
+    }
+    #l1{
+        margin-top: -13px;
+    }
+    #annai{
+        width: 128px;
+        padding: 5px;
+        background-color: palevioletred;
+        border-radius: 10px;
+        color: #fff;
+        margin: 0px 0px 0px 510px;   
+        font-size: 16px;
+        font-weight: 100;
+    }
+    #annai a{
+        color: #fff;
+        text-decoration: none;
+    }
+    h1{
+        width: 195px;
+        padding: 5px;
+        background-color: #7fc737;
+        border-radius: 10px;
+        margin: 0px 0px 0px 10px;
+        font-size: 27px;
+        font-family: monospace;
+        color: #fff;
+    }
+    main{
+        width: 900px;
+        margin: 10px 0px 0px 25px;
+        display: grid;
+        grid-template-columns: 320px 320px;
+    }
+    main p{
+        width: 300px;
+        margin-top: -5px;
+        padding: 3px;
+        background: #7fc737;
+        color: #fff;
+        border-radius: 5px;
+    }
+    h2{
+        background-color: rgba( 204, 255, 204, 0.55 );
+        position: fixed;
+        bottom: 10px; 
+        right: 10px;
+        padding: 6px 40px;
+        font-size: 15px;
+    }
+}
+
+/* スマートフォン */
+@media screen and (max-width: 500px){
+    body{
+        width: 500px;
+        background-color: #fec5d4;
+        background-size: cover;
+    }
+    header img{
+        width: 470px;
+        margin-top: 15px;
+    }
+    header p{
+        position: absolute;
+        margin-top: -90px;
+        margin-left: 109px;
+        font-size: 12px;
+    }
+    .logo img{
+        width: 280px;
+        position: absolute;
+        top: 78px;
+        left: 17px;
+    }
+    .open{
+        margin: -150px 0px 0px 18px;
+    }
+    .open, .close {
+        display: block;
+    }
+    input[type=checkbox] {
+        position: absolute;
+        left: -50vw;
+    }
+    .sidemenu {
+        position: absolute;
+        top: 0;
+        left: -350px;
+        height: 100%;
+        width: 33%;
+        background: #a8d1f4;
+        transition: .2s;
+    }
+    input[type=checkbox]:checked ~ .sidemenu {
+        left: 0px;
+        transition: .2s;
+    }
+    nav{
+        display: flex;
+    }
+    nav ul{
+        position: absolute;
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        padding: 7px;
+        background-color: #a8d1f4;
+        border-radius: 5px;
+    }
+    ul a{
+        color: blue;
+    }
+    nav li{
+        list-style: none;
+        margin: 0px 0px 0px 20px;
+    }
+    #l1{
+        margin-top: -13px;
+    }
+    #annai{
+        width: 112px;
+        padding: 5px;
+        background-color: palevioletred;
+        border-radius: 10px;
+        color: #fff;
+        margin: -35px 0px 0px 325px;   
+        font-size: 14px;
+        font-weight: 100;
+    }
+    #annai a{
+        color: #fff;
+        text-decoration: none;
+    }
+    h1{
+        width: 165px;
+        padding: 5px;
+        background-color: #7fc737;
+        border-radius: 10px;
+        margin: 10px 0px 0px 10px;
+        font-size: 23px;
+        color: #fff;
+        font-family: monospace;
+    }
+    .contents{
+        margin: 160px 0px 0px 0px;
+    }
+    main{
+        width: 900px;
+        margin: 10px 0px 0px 80px;
+        display: grid;
+        grid-template-columns: 320px;
+    }
+    main p{
+        width: 300px;
+        margin-top: -5px;
+        padding: 3px;
+        background: #7fc737;
+        color: #fff;
+        border-radius: 5px;
+    }
+    h2{
+        background-color: rgba( 204, 255, 204, 0.55 );
+        position: fixed;
+        bottom: 10px; 
+        right: 10px;
+        padding: 6px 40px;
+        font-size: 15px;
+    }
+}

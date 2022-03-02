@@ -1,0 +1,24 @@
+body{
+    background-image: url("leaf.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.contents{
+    width: 980px;
+    margin: 0px auto;
+}
+header{
+    text-align: center;
+}
+header p{
+    margin-bottom: 0px;
+}
+header h1{
+    margin-top: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #711f1f;
+}
+header img{
+    margin: 0px 15px 0px 0px;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>アミューズメントパーク</title>
+        <link rel="stylesheet" href="park.css">
+        <link href="slider2/js/slick-theme.css" rel="stylesheet" type="text/css">
+		<link href="slider2/js/slick.css" rel="stylesheet" type="text/css">
+		<script src="https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="slider2/js/slick.min.js"></script>
+        <script>
+            $(document).ready(function(){
+              $('.slider').bxSlider();
+            });
+          </script>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <a href="park.html"><img src="image/top/logo.jpg"></a>
+            </div>
+            <h2>アトラクション</h2>
+            <div class="hamburger-demo-menubox">
+		        <input id="hamburger-demo1" type="checkbox" class="input-hidden">
+		        <label for="hamburger-demo1" class="hamburger-demo-switch hamburger-demo-switch1">
+			        <span class="hamburger-switch-line1"></span>
+		        </label>
+		        <div class="hamburger-demo-menuwrap">
+			        <ul class="hamburger-demo-menulist">
+				        <li><a href="park.html">TOP</a></li>
+                        <li><a href="attraction.html">アトラクション</a></li>
+                        <li><a href="spot.html">観光</a></li>
+                        <li><a href="gourmet.html">グルメ</a></li>
+                        <li><a href="access.html">アクセス</a></li>
+			        </ul>
+		        </div>
+		        <div class="hamburger-demo-cover"></div>
+	        </div>
+        </header> 
+        <div id="branding">
+			<ul class="slider">
+				<li><a href="#"><img src="image/attraction/athletic.png"   alt="image01"></a></li>
+				<li><a href="#"><img src="image/attraction/kyoryu.jpg"  alt="image02"></a></li>
+				<li><a href="#"><img src="image/attraction/coaster.jpg"  alt="image03"></a></li>
+				<li><a href="#"><img src="image/attraction/vr.jpg"  alt="image04"></a></li>
+				<li><a href="#"><img src="image/attraction/fuwafuwa.jpg"  ></a></li>
+			</ul>
+        </div>        		
+		<script>$('.slider').slick({
+            autoplay:true,
+            autoplaySpeed:2000,
+            dots:true,});
+        </script>
+        <div class="text">
+            <p>　最新の技術を駆使したアミューズメント！<br>
+                　ファミリーに大人気のアトラクション！</p>
+        </div>
+        <table div class="attraction">
+            <tr>
+                <th><p id="p2">デジタル×アスレチック</p>
+                    <p id="p1"><span style="color:#FFE200">●</span>アスレチックファンタジア</p></th>
+                <th><p id="p4">圧倒的な没入体験</p>
+                    <p id="p3"><span style="color:purple">●</span>VRワールド</p></th>
+            </tr>
+            <tr>
+                <th><p id="p6">コースターアトラクション</p>
+                    <p id="p5"><span style="color:blue">●</span>天空レールコースター</p></th>
+                <th><p id="p8">ジップラインで風を切れ！</p>
+                    <p id="p7"><span style="color:cyan">●</span>シューティングスター</p></th>
+            </tr>
+            <tr>
+                <th><p id="p10">脱出成功率1％</p>
+                    <p id="p9"><span style="color:red">●</span>恐竜の森</p></th>
+                <th><p id="p12">お子様に大人気！</p>
+                    <p id="p11"><span style="color:orange">●</span>ふわふわランド</p></th>
+            </tr>
+        </table>
+        <footer>
+            <P>&copy;AOKI.2021</P>
+        </footer>
+    </body>
+</html>

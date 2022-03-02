@@ -1,0 +1,199 @@
+body{
+    background-color: #fced97;
+    width: 1034px;
+    margin: 0px auto;
+}
+header{
+    display: flex;
+}
+header img{
+    margin-left: 10px;
+    width: 400px;
+}
+header ul{
+    margin-top: 10px;
+}
+header li{
+    margin-left: 45px;
+    font-size: 12px;
+}
+footer{
+    margin-top: 110px;
+    margin-left: 85px;
+    margin-right: 55px;
+    font-size: 12px;
+    border-top: solid 1px;
+}
+/* TOP */
+.slider img{
+    width: 890px;
+    height: 550px;
+    margin-left: 50px;
+}
+/* 案内 */
+h1{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 155px;
+    color: #947694;
+}
+h2{
+    font-size: 20px;
+    color: #947694;
+}
+.p{
+    display: flex;
+}
+.text{
+    margin-left: 80px;
+    line-height: 33px;
+
+}
+.p img{
+    margin-left: 0px;
+    width: 377px;
+
+}
+/* メニュー */
+table img{
+    width: 450px;
+    margin-top: 10px;
+}
+.menu{
+    display: flex;
+    margin-left: 150px;
+}
+.menu p{
+    margin-top: 0;
+}
+#p1{
+    margin-left: 255px;
+    margin-top: 0;
+}
+#p2{
+    margin-left: 290px;
+    margin-top: 0;
+}
+#p3{
+    margin-left: 300px;
+    margin-top: 0;
+}
+/* アクセス */
+.table{
+    margin-bottom: 130px;
+}
+.access{
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+
+}
+.access img{
+    width: 550px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+/* 予約 */
+.yoyaku h1{
+    margin-left: 40px;
+}
+.yoyaku{
+    display: flex;
+    margin-left: 110px;
+} 
+.yoyaku img{
+    width: 400px;
+    height: 300px;
+    margin-top: 100px;
+}
+/* ハンバーガーメニュー */
+.menu-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    height: 60px;
+    width: 60px;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    background-color: #f44c84;
+}
+.menu-btn span,
+.menu-btn span:before,
+.menu-btn span:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 25px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+}
+.menu-btn span:before {
+    bottom: 8px;
+}
+.menu-btn span:after {
+    top: 8px;
+}
+#menu-btn-check:checked ~ .menu-content {
+    transform: translateX(0);
+}
+#menu-btn-check:checked ~ .menu-btn span {
+    background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
+}
+#menu-btn-check:checked ~ .menu-btn span::before {
+    bottom: 0;
+    transform: rotate(45deg);
+}
+#menu-btn-check:checked ~ .menu-btn span::after {
+    top: 0;
+    transform: rotate(-45deg);
+}
+#menu-btn-check {
+    display: none;
+}
+.menu-content {
+    width: 30%;
+    height: 70%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translateX(110%);
+    margin-left: auto;
+    z-index: 80;
+    background-color: #f44c84e6;
+    transition: all 0.5s;/*アニメーション設定*/
+}
+.menu-content ul {
+    padding: 70px 10px 0;
+}
+.menu-content ul li {
+    border-bottom: solid 1px #ffffff;
+    list-style: none;
+}
+.menu-content ul li a {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    box-sizing: border-box;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 9px 15px 10px 0;
+    position: relative;
+}
+.menu-content ul li a::before {
+    content: "";
+    width: 7px;
+    height: 7px;
+    border-top: solid 2px #ffffff;
+    border-right: solid 2px #ffffff;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 11px;
+    top: 16px;
+}
+
+
+
