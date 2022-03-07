@@ -1,4 +1,4 @@
-@media screen and (min-width: 781px) and (max-width: 1370px){
+@media screen and (min-width: 1024px){
     body{
         margin: 0px;
     }
@@ -146,7 +146,7 @@
 }
 
 /* タブレット */
-@media screen and (min-width: 501px) and (max-width: 780px){
+@media screen and (min-width: 768px) and (max-width: 1023px){
     body{
         margin: 0px;
     }
@@ -296,7 +296,7 @@
 }
 
 /* スマホ */
-@media screen and (max-width: 500px){
+@media screen and (max-width: 767px){
     body{
         margin: 0px;
     }
@@ -329,13 +329,14 @@
         color: #585656;
     }
     li{
+        font-size: 14px;
         margin-right: 85px;
-        margin-left: -45px;
+        margin-left: -36px;
         list-style: none;
     }
     nav p{
-        font-size: 19px;
-        margin: -53px 0px 0px -111px;
+        font-size: 17px;
+        margin: -53px 0px 0px -117px;
     }
     .contents main{
         width: 460px;
@@ -387,6 +388,7 @@
         margin: 0px;
     }
     h2{
+        font-size: 22px;
         margin: 50px 0px 0px 55px;
         color: #585656;
     }
@@ -394,7 +396,7 @@
         width: 900px;
         display: grid;
         grid-template-columns: 320px;
-        margin-top: 70px;
+        margin-top: 25px;
         margin-left: 88px;
         row-gap: 65px;
     }
