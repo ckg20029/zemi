@@ -305,8 +305,8 @@
     .contents{
         height: 755px;
         background-image: url(image/background.jpg);
-        background-repeat: no-repeat;
-        background-size: 1366px;
+        background-repeat: repeat-y;
+        background-size: 505px;
     }
     .contents header{
         width: 440px;
@@ -361,7 +361,7 @@
     /* 作品 */
     .wrapper{
         background-image: url(image/background-sub.jpg);
-        background-size: 1366px;
+        background-size: 505px;
         }
     .wrapper header{
         width: 1150px;
