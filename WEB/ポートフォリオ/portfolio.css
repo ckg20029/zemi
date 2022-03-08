@@ -163,8 +163,8 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin: 0px 0px 0px 15px;
-        padding: 0px 0px 0px 55px;
+        margin-left: 10%;
+        padding-left: 5%;
     }
     header img{
         width: 350px;
@@ -192,7 +192,8 @@
         width: 590px;
         height: 245px;
         background-color: #fff;
-        margin: 70px 0px 0px 65px;
+        margin-top: 70px;
+        margin-left: 16%;
         border-radius: 50px;
         border: 7px solid #ff7f00
     }
