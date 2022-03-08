@@ -1,4 +1,4 @@
-@media screen and (min-width: 1024px){
+@media screen and (min-width: 1025px){
     body{
         margin: 0px;
     }
@@ -146,7 +146,7 @@
 }
 
 /* タブレット */
-@media screen and (min-width: 521px) and (max-width: 1023px){
+@media screen and (min-width: 601px) and (max-width: 1024px){
     body{
         margin: 0px;
     }
@@ -161,11 +161,11 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin-left: 13%;
-        padding-left: 5%;
+        margin: 0 auto;
     }
     header img{
         width: 350px;
+        padding: 8px;
     }
     nav{
         display: flex;
@@ -173,6 +173,7 @@
     ul{
         display: flex;
         margin-top: 0px;
+        margin-left: 30px;
     }
     ul a{
         color: #585656;
@@ -190,8 +191,7 @@
         width: 590px;
         height: 245px;
         background-color: #fff;
-        margin-top: 70px;
-        margin-left: 20%;
+        margin: 70px auto 0;
         border-radius: 50px;
         border: 7px solid #ff7f00
     }
@@ -214,13 +214,13 @@
         background-repeat: repeat-y;
         }
     .wrapper header{
-        width: 1150px;
-        margin-left: 10%;
+        width: 700px;
+        margin: 0 auto;
     }
     .wrapper header img{
         width: 260px;
         margin-top: 10px;
-        margin-left: 0px auto;
+        margin-left: 20px;
     }
     .wrapper nav ul{
         width: 650px;
@@ -246,11 +246,10 @@
         color: #585656;
     }
     .box{
-        width: 900px;
+        width: 590px;
         display: grid;
         grid-template-columns: 320px 320px;
-        margin-top: 70px;
-        margin-left: 19%;
+        margin: 0 auto;
         row-gap: 65px;
     }
     .box img{
@@ -289,18 +288,17 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 25px;
-        margin-top: 25px;
-        margin-left: 19%;
+        margin: 0 auto;
         padding: 10px 0px 20px 55px;    
     } 
     form{
-        margin-top: 35px;
-        margin-left: 19%;
+        width: 580px;
+        margin: 0 auto;
     }
 }
 
 /* スマホ */
-@media screen and (max-width: 520px){
+@media screen and (max-width: 600px){
     body{
         margin: 0px;
     }
@@ -316,7 +314,7 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin-left: 13%;
+        margin: 0 auto;
         padding-left: 5%;
     }
     header img{
@@ -346,8 +344,7 @@
         width: 460px;
         height: 172px;
         background-color: #fff;
-        margin-top: 70px;
-        margin-left: 13%;
+        margin: 70px auto 0;
         border-radius: 50px;
         border: 7px solid #ff7f00;
     }
@@ -362,15 +359,15 @@
         padding-top: 190px;
         color: #585656;
     }
-    /* 作品 */
+    /* サブページ */
     .wrapper{
         background-image: url(image/background-sub.jpg);
         background-size: 760px;
         background-position: top;
         }
     .wrapper header{
-        width: 1150px;
-        margin-left: 15%;
+        width: 440px;
+        margin: 0 auto;
     }
     .wrapper header img{
         width: 260px;
@@ -401,11 +398,10 @@
         color: #585656;
     }
     .box{
-        width: 900px;
+        width: 290px;
         display: grid;
         grid-template-columns: 320px;
-        margin-top: 25px;
-        margin-left: 24%;
+        margin: 0 auto;
         row-gap: 65px;
     }
     .box img{
@@ -440,8 +436,8 @@
         opacity:		1;	/* マスクを表示する */
     }
     form{
-        margin-top: 50px;
-        margin-left: 24%;
+        width: 290px;
+        margin: 0 auto;
     }
     /* プロフィール */
     .about{
@@ -449,8 +445,7 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 25px;
-        margin-top: 25px;
-        margin-left: 15%;
+        margin: 0 auto;
         padding: 10px 0px 20px 15px; 
     } 
 }
