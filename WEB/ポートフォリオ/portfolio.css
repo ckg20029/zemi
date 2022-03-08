@@ -163,7 +163,7 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin-left: 10%;
+        margin-left: 13%;
         padding-left: 5%;
     }
     header img{
@@ -193,7 +193,7 @@
         height: 245px;
         background-color: #fff;
         margin-top: 70px;
-        margin-left: 16%;
+        margin-left: 20%;
         border-radius: 50px;
         border: 7px solid #ff7f00
     }
@@ -211,7 +211,7 @@
     /* サブページ */
     .wrapper{
         background-image: url(image/background-sub.jpg);
-        background-size: 1366px;
+        background-size: 100%px;
         background-position: center;
         }
     .wrapper header{
@@ -219,7 +219,8 @@
     }
     .wrapper header img{
         width: 260px;
-        margin: 10px 0px 0px 20px;
+        margin-top: 10px;
+        margin-left: 20px;
     }
     .wrapper nav ul{
         width: 650px;
@@ -227,7 +228,7 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin: 0px 0px 0px 10px;
+        margin-left: 13%;
         display: flex;
     }
     .wrapper nav ul a{
@@ -240,7 +241,8 @@
         margin: 0px;
     }
     h2{
-        margin: 50px 0px 0px 105px;
+        margin-top: 50px;
+        margin-left: 19%;
         color: #585656;
     }
     .box{
@@ -248,7 +250,7 @@
         display: grid;
         grid-template-columns: 320px 320px;
         margin-top: 70px;
-        margin-left: 65px;
+        margin-left: 19%;
         row-gap: 65px;
     }
     .box img{
@@ -287,12 +289,13 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 25px;
-        margin: 25px 0px 0px 60px;
+        margin-top: 25px;
+        margin-left: 19%;
         padding: 10px 0px 20px 55px;    
     } 
     form{
         margin-top: 35px;
-        margin-left: 105px;
+        margin-left: 19%;
     }
 }
 
