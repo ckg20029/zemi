@@ -3,22 +3,25 @@
         margin: 0px;
     }
     /* トップページ */
-    .contents{
+    #image{
         height: 755px;
         background-image: url(image/background.jpg);
         background-size: 1366px;
         background-position: top;
+        background-repeat: repeat-y;
     }
     .contents header{
         width: 800px;
         background-color: rgb(255, 255, 255,0.55);
-        color: #585656;
         border-radius: 140px;
-        margin: 0 auto;
+        color: #585656;
+        margin:  33px auto 0;
         padding: 0px 0px 0px 55px;
     }
     header img{
         width: 470px;
+        margin-top: 10px;
+
     }
     nav{
         display: flex;
@@ -45,7 +48,7 @@
         background-color: #fff;
         margin: 70px auto 0;
         border-radius: 50px;
-        border: 7px solid #ff7f00;
+        border: 7px solid #e2749e;
     }
     .contents main p{
         text-align: center;
@@ -153,17 +156,17 @@
         margin: 0px;
     }
     /* トップページ */
-    .contents{
+    #image{
         background-image: url(image/background.jpg);
         background-size: 1366px;
-        background-position: bottom;
+        background-position: top;
     }
     .contents header{
         width: 670px;
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin: 0 auto;
+        margin: 33px auto 0;
     }
     header img{
         width: 350px;
@@ -195,7 +198,7 @@
         background-color: #fff;
         margin: 70px auto 0;
         border-radius: 50px;
-        border: 7px solid #ff7f00
+        border: 7px solid #e2749e;
     }
     .contents main p{
         text-align: center;
@@ -305,7 +308,7 @@
         margin: 0px;
     }
     /* トップページ */
-    .contents{
+    #image{
         height: 755px;
         background-image: url(image/background.jpg);
         background-size: 1000px;
@@ -316,7 +319,7 @@
         background-color: rgb(255, 255, 255,0.55);
         color: #585656;
         border-radius: 140px;
-        margin: 0 auto;
+        margin: 33px auto 0;
         padding-left: 5%;
     }
     header img{
@@ -348,7 +351,7 @@
         background-color: #fff;
         margin: 70px auto 0;
         border-radius: 50px;
-        border: 7px solid #ff7f00;
+        border: 7px solid #e2749e;
     }
     .contents main p{
         text-align: center;
